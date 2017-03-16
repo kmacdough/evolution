@@ -1,0 +1,6 @@
+#! /usr/bin/env python3.4
+import client.client_main
+import sys
+
+if __name__ == '__main__':
+    client.client_main.main(sys.argv[1:])

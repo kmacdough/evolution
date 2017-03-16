@@ -1,0 +1,25 @@
+
+    ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1),
+    ClimbingCard(2), ClimbingCard(3), CooperationCard(-3), CooperationCard(-2), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0), FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(-1), ScavengerCard(0), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1), SymbiosisCard(2), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2), WarningCallCard(-1), WarningCallCard(0), WarningCallCard(1), WarningCallCard(2), WarningCallCard(3)]
+
+
+p2
+bag=1
+speicies(AmbushCard(3), pop=1, food=1)
+species, CarnivoreCard(-4) pop=1, food=2
+
+p3
+species, CarnivoreCard(0) pop=1, food=1
+
+
+p4
+species, CarnivoreCard(4) pop=1, food=1
+
+
+p1
+bag=1
+speicies(AmbushCard(-1), pop=1, food=1)
+species, CarnivoreCard(8) pop=2, food=1
+
+
+wh = 1

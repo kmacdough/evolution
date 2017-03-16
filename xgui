@@ -1,0 +1,43 @@
+#! /usr/bin/env python3.4
+import sys
+import json
+from evo_json.process_json.process_configuration import convert_config_to_dealer
+from gui.display_dealer import DisplayDealer
+from gui.display_self_player import DisplaySelfPlayer
+from gui.horiz_scroll_frame import HorizontalScrolledFrame
+from tkinter import Tk, Toplevel
+
+
+def main():
+    run(sys.stdin, sys.stdout)
+
+
+def run(in_file, out_file):
+    pyjson = json.load(in_file)
+    dealer = convert_config_to_dealer(pyjson)
+
+    player_window = make_window("Player Config", DisplaySelfPlayer, dealer, 0)
+    make_window("Dealer Config", DisplayDealer, dealer)
+
+    player_window.mainloop()
+
+def make_window(title, displayer, obj, *args):
+    """
+    Create a window to display obj
+    :param title: Title of the window
+    :type title: String
+    :param displayer: function to generate view
+    :type displayer: container, ViewModel -> DisplayDealer
+    :param obj: object to display
+    :type obj: ???
+    :return: window
+    """
+    win = Tk()
+    win.wm_title(title)
+    #scroll_frame = HorizontalScrolledFrame(win)
+    #scroll_frame.pack(fill='both', expand=True)
+    displayer(win, obj.view_model(), *args).pack()
+    return win
+
+if __name__ == "__main__":
+    main()

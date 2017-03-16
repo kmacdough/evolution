@@ -1,0 +1,148 @@
+Remote JSON protocol for Evolution
+
+Start:
+
+    The players connect to the main server.
+    the main server acknowledges the players
+    if they can join. Otherwise, sends
+    "game full" message if the game is full.
+
+    +--------+
+    |  main  |          +--------+
+    +----+---+          | player1|         +---------+
+         |              +---+----+         | player2 |
+         |     "Hello"      |              +----+----+
+         | <----------------+    +--------+     |
+         |   "ack"          |    | player3|     |
+         +================> |    +---+----+     |
+         |                  |        |          |
+         |    "Hello"       |        |          |
+         | <------------------------------------+
+         |     "ack"        |        |          |
+         +====================================> |
+         |                  |        |          |
+         |      "Hello"     |        |          |
+         | <-------------------------+          |
+         |    "game full"   |        |          |
+         +=========================> |          |
+         |                  |        |          |
+
+
+Turn: Step 1
+
+    The dealer sends each player their state, at the
+    beginning of the turn after being updated to
+    include new cards and species board (optional)
+
+    +------------+
+    |   server   |
+    +-----+------+          +-----------+
+          |                 | player1   |         +-------------+
+          |                 +-----+-----+         |   player2   |
+          |                       |               +------+------+
+          |                       |                      |
+          | ["start", Player+]    |                      |
+          +---------------------> |                      |
+          |                       |                      |
+          |  ["start", Player+]   |                      |
+          +--------------------------------------------> |
+          |                       |                      |
+
+
+Turn: Steps 2 and 3
+
+  - The dealer sends other player states to the current
+    player and asks him to choose what cards to play.
+  - The player responds with an Action4 of their choices.
+
+    +-------------+
+    |   Server    |
+    +-----+-------+     +-----------+  +------------+
+          |             |  Player1  |  |  Player2   |
+          |             +----+------+  +------+-----+
+          |     choose       |                |
+          +----------------> |                |
+          |     Action4      |                |
+          | <================+                |
+          |     choose       |                |
+          +---------------------------------> |
+          |     Action4      |                |
+          | <=================================|
+          |                  |                |
+
+    choose = ["choose", [[LOS, ...], [LOS, ....]]
+
+
+Turn: Step 4
+
+    The dealer asks the player to make a
+    feeding choice if there is more than
+    one choice.
+
+    +-----------+       +----------+     +----------+
+    |  Server   |       |  Player1 |     | Player2  |
+    +-----------+       +-----+----+     +-----+----+
+          |                   |                |
+          |  feed-next        |                |
+          +-----------------> |                |
+          |   food-choice     |                |
+          | <=================+                |
+          |      feed-next    |                |
+          +----------------------------------> |
+          |      food-choice  |                |
+          | <================================= |
+          |                   |                |
+          |                   |                |
+         ...                 ...              ...
+          |                   |                |
+          |                   |                |
+          +                   +                +
+
+    A feed-next is: ["feed", Nat, [LOS, ...], Player+]
+      the Nat is the wateringhole
+      each LOS is an opposing player's list of species,
+        starting with the next player\
+      the Player+ is the current player's full state
+
+    A feed-choice is one of:
+     - false
+
+    - Natural
+        the index of a single species of the currently
+        feeding player that is vegetarian and gets the
+        next token of food;
+
+    - [Natural, Nat+]
+        combines an index to a given species and
+        desired number of food tokens—meaning the
+        indexed species of the currently feeding player
+        comes with a fat-tissue trait and wishes to
+        store the specified number of food tokens on
+        that trait;
+
+    - [Natural, Natural, Natural]\
+        the first Natural pointing to a carnivore of the
+          current player,
+        the second Natural points to the target player,
+        the third Natural points to the target species
+          on the target player
+
+
+End game:
+
+    At the end of the game, the dealer sends the players all of
+    the scores, sorted by descending score.
+
+    +------------+  +-----------+  +-------------+
+    |   server   |  | player1   |  |   player2   |
+    +-----+------+  +-----+-----+  +------+------+
+          |               |               |
+          | score         |               |
+          +-------------> |               |
+          |               |               |
+          | score         |               |
+          +-----------------------------> |
+          |               |               |
+
+    score = [[Nat+, Nat], ...]
+      where each Nat+ is a player id and the Nat is the corresponding score

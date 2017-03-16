@@ -1,0 +1,6 @@
+CARD_WIDTH = 100
+CARD_HEIGHT = 100
+CARD_TEXT = "white"
+CARD_BG = "black"
+
+SPECIES_BORDER = "black"

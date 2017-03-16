@@ -1,0 +1,1270 @@
+
+
+ Start Game 
+
+Start Turn: 
+
+Player States: [PlayerState(1, [], 0, []), PlayerState(2, [], 0, []), PlayerState(3, [], 0, []), PlayerState(4, [], 0, [])] 
+ WH: 0 
+
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 4: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Apply card plays
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+
+player_state before: PlayerState(4, [Species(0,0,1,[])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])
+player_state after: PlayerState(4, [Species(0,0,1,[]), Species(0,0,2,[CarnivoreCard(-8)])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])
+
+watering hole: 2 
+
+Player: 1, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])]
+Player: 4, Species: [Species(0,0,1,[]), Species(0,0,2,[CarnivoreCard(-8)])]
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Start Turn: 
+
+Player States: [PlayerState(2, [Species(0,0,1,[AmbushCard(3)])], 1, [CarnivoreCard(-4), CarnivoreCard(-3)]), PlayerState(3, [], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1)]), PlayerState(4, [], 0, [CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5)]), PlayerState(1, [Species(0,0,1,[AmbushCard(-1)])], 1, [CarnivoreCard(-6), CarnivoreCard(-5)])] 
+ WH: 0 
+
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 4: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Apply card plays
+
+player_state before: PlayerState(2, [Species(0,0,1,[AmbushCard(3)])], 1, [CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(6), CarnivoreCard(7), CarnivoreCard(8), ClimbingCard(-3)])
+player_state after: PlayerState(2, [Species(0,0,1,[AmbushCard(3)]), Species(0,1,2,[ClimbingCard(-3)])], 1, [CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(6), CarnivoreCard(7), CarnivoreCard(8), ClimbingCard(-3)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-1)])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1)])
+
+player_state before: PlayerState(4, [Species(0,0,1,[])], 0, [CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3), CooperationCard(-3), CooperationCard(-2)])
+player_state after: PlayerState(4, [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(3)])], 0, [CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3), CooperationCard(-3), CooperationCard(-2)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[AmbushCard(-1)])], 1, [CarnivoreCard(-6), CarnivoreCard(-5), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2)])
+player_state after: PlayerState(1, [Species(0,0,1,[AmbushCard(-1)]), Species(0,1,2,[CooperationCard(2)])], 1, [CarnivoreCard(-6), CarnivoreCard(-5), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2)])
+
+watering hole: 0 
+
+Player: 2, Species: [Species(0,0,1,[AmbushCard(3)]), Species(0,1,2,[ClimbingCard(-3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-1)])]
+Player: 4, Species: [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(3)])]
+Player: 1, Species: [Species(0,0,1,[AmbushCard(-1)]), Species(0,1,2,[CooperationCard(2)])]
+Start Turn: 
+
+Player States: [PlayerState(3, [], 0, [ClimbingCard(0), ClimbingCard(1), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0)]), PlayerState(4, [], 0, [CooperationCard(-3), CooperationCard(-2), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0)]), PlayerState(1, [], 1, [FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3)]), PlayerState(2, [], 1, [CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 4: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [ClimbingCard(0), ClimbingCard(1), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0), ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(3, 0)])], 0, [ClimbingCard(0), ClimbingCard(1), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0), ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1)])
+
+player_state before: PlayerState(4, [Species(0,0,1,[])], 0, [CooperationCard(-3), CooperationCard(-2), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2)])
+player_state after: PlayerState(4, [Species(0,0,1,[]), Species(0,1,2,[FertileCard(0)])], 0, [CooperationCard(-3), CooperationCard(-2), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 1, [FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[HardShellCard(0)])], 1, [FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 1, [CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(-3)])], 1, [CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1)])
+
+watering hole: 4 
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(3, 0)])]
+Player: 4, Species: [Species(0,0,1,[]), Species(0,1,3,[FertileCard(0)])]
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[HardShellCard(0)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(-3)])]
+Feeding choice is StoreFood(1, 1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Start Turn: 
+
+Player States: [PlayerState(4, [Species(0,1,1,[FertileCard(0)])], 1, [ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HornCard(-3), HornCard(-2)]), PlayerState(1, [Species(0,1,1,[HardShellCard(0)])], 2, [HardShellCard(1), HardShellCard(2), HornCard(-1), HornCard(0)]), PlayerState(2, [Species(0,1,1,[HerdingCard(-3)])], 2, [HerdingCard(-2), HerdingCard(-1), HornCard(1), HornCard(2)]), PlayerState(3, [], 0, [ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3)])] 
+ WH: 0 
+
+Food Card choices for player 4: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Apply card plays
+
+player_state before: PlayerState(4, [Species(0,1,1,[FertileCard(0)])], 1, [ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HornCard(-3), HornCard(-2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1)])
+player_state after: PlayerState(4, [Species(0,1,1,[FertileCard(0)]), Species(0,1,2,[HornCard(-2)])], 1, [ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HornCard(-3), HornCard(-2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1)])
+
+player_state before: PlayerState(1, [Species(0,1,1,[HardShellCard(0)])], 2, [HardShellCard(1), HardShellCard(2), HornCard(-1), HornCard(0), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3)])
+player_state after: PlayerState(1, [Species(0,1,1,[HardShellCard(0)]), Species(0,1,2,[LongNeckCard(1)])], 2, [HardShellCard(1), HardShellCard(2), HornCard(-1), HornCard(0), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3)])
+
+player_state before: PlayerState(2, [Species(0,1,1,[HerdingCard(-3)])], 2, [HerdingCard(-2), HerdingCard(-1), HornCard(1), HornCard(2), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0)])
+player_state after: PlayerState(2, [Species(0,1,1,[HerdingCard(-3)]), Species(0,1,2,[PackHuntingCard(-2)])], 2, [HerdingCard(-2), HerdingCard(-1), HornCard(1), HornCard(2), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(1)])], 0, [ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3)])
+
+watering hole: 0 
+
+Player: 4, Species: [Species(0,1,2,[FertileCard(0)]), Species(0,1,2,[HornCard(-2)])]
+Player: 1, Species: [Species(0,1,1,[HardShellCard(0)]), Species(0,1,2,[LongNeckCard(1)])]
+Player: 2, Species: [Species(0,1,1,[HerdingCard(-3)]), Species(0,1,2,[PackHuntingCard(-2)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(1)])]
+End of game 
+
+player: PlayerState(1, [], 2, [LongNeckCard(2), LongNeckCard(3), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), SymbiosisCard(-2)])
+player: PlayerState(2, [], 2, [PackHuntingCard(-1), PackHuntingCard(0), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1), SymbiosisCard(2)])
+player: PlayerState(3, [], 0, [HerdingCard(2), HerdingCard(3), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2), WarningCallCard(-1)])
+player: PlayerState(4, [], 1, [HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), ScavengerCard(-2), ScavengerCard(-1), ScavengerCard(0), ScavengerCard(1)])
+scores: [(1, 'Hi', 2), (2, 'Hi', 2), (3, 'Hi', 0), (4, 'Hi', 1)]
+
+ Start Game 
+
+Start Turn: 
+
+Player States: [PlayerState(1, [], 0, []), PlayerState(2, [], 0, []), PlayerState(3, [], 0, []), PlayerState(4, [], 0, [])] 
+ WH: 0 
+
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 4: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+watering hole: 2 
+
+Apply card plays
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+
+player_state before: PlayerState(4, [Species(0,0,1,[])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])
+player_state after: PlayerState(4, [Species(0,0,1,[]), Species(0,0,2,[CarnivoreCard(-8)])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])
+
+Player: 1, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])]
+Player: 4, Species: [Species(0,0,1,[]), Species(0,0,2,[CarnivoreCard(-8)])]
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Start Turn: 
+
+Player States: [PlayerState(2, [Species(0,0,1,[AmbushCard(3)])], 1, [CarnivoreCard(-4), CarnivoreCard(-3)]), PlayerState(3, [], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1)]), PlayerState(4, [], 0, [CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5)]), PlayerState(1, [Species(0,0,1,[AmbushCard(-1)])], 1, [CarnivoreCard(-6), CarnivoreCard(-5)])] 
+ WH: 0 
+
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 4: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(2, [Species(0,0,1,[AmbushCard(3)])], 1, [CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(6), CarnivoreCard(7), CarnivoreCard(8), ClimbingCard(-3)])
+player_state after: PlayerState(2, [Species(0,0,1,[AmbushCard(3)]), Species(0,1,2,[ClimbingCard(-3)])], 1, [CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(6), CarnivoreCard(7), CarnivoreCard(8), ClimbingCard(-3)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-1)])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1)])
+
+player_state before: PlayerState(4, [Species(0,0,1,[])], 0, [CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3), CooperationCard(-3), CooperationCard(-2)])
+player_state after: PlayerState(4, [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(3)])], 0, [CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3), CooperationCard(-3), CooperationCard(-2)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[AmbushCard(-1)])], 1, [CarnivoreCard(-6), CarnivoreCard(-5), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2)])
+player_state after: PlayerState(1, [Species(0,0,1,[AmbushCard(-1)]), Species(0,1,2,[CooperationCard(2)])], 1, [CarnivoreCard(-6), CarnivoreCard(-5), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2)])
+
+Player: 2, Species: [Species(0,0,1,[AmbushCard(3)]), Species(0,1,2,[ClimbingCard(-3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-1)])]
+Player: 4, Species: [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(3)])]
+Player: 1, Species: [Species(0,0,1,[AmbushCard(-1)]), Species(0,1,2,[CooperationCard(2)])]
+Start Turn: 
+
+Player States: [PlayerState(3, [], 0, [ClimbingCard(0), ClimbingCard(1), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0)]), PlayerState(4, [], 0, [CooperationCard(-3), CooperationCard(-2), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0)]), PlayerState(1, [], 1, [FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3)]), PlayerState(2, [], 1, [CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 4: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 4 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [ClimbingCard(0), ClimbingCard(1), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0), ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(3, 0)])], 0, [ClimbingCard(0), ClimbingCard(1), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0), ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1)])
+
+player_state before: PlayerState(4, [Species(0,0,1,[])], 0, [CooperationCard(-3), CooperationCard(-2), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2)])
+player_state after: PlayerState(4, [Species(0,0,1,[]), Species(0,1,2,[FertileCard(0)])], 0, [CooperationCard(-3), CooperationCard(-2), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 1, [FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[HardShellCard(0)])], 1, [FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 1, [CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(-3)])], 1, [CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(3, 0)])]
+Player: 4, Species: [Species(0,0,1,[]), Species(0,1,3,[FertileCard(0)])]
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[HardShellCard(0)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(-3)])]
+Feeding choice is StoreFood(1, 1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Start Turn: 
+
+Player States: [PlayerState(4, [Species(0,1,1,[FertileCard(0)])], 1, [ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HornCard(-3), HornCard(-2)]), PlayerState(1, [Species(0,1,1,[HardShellCard(0)])], 2, [HardShellCard(1), HardShellCard(2), HornCard(-1), HornCard(0)]), PlayerState(2, [Species(0,1,1,[HerdingCard(-3)])], 2, [HerdingCard(-2), HerdingCard(-1), HornCard(1), HornCard(2)]), PlayerState(3, [], 0, [ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3)])] 
+ WH: 0 
+
+Food Card choices for player 4: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(4, [Species(0,1,1,[FertileCard(0)])], 1, [ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HornCard(-3), HornCard(-2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1)])
+player_state after: PlayerState(4, [Species(0,1,1,[FertileCard(0)]), Species(0,1,2,[HornCard(-2)])], 1, [ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HornCard(-3), HornCard(-2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1)])
+
+player_state before: PlayerState(1, [Species(0,1,1,[HardShellCard(0)])], 2, [HardShellCard(1), HardShellCard(2), HornCard(-1), HornCard(0), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3)])
+player_state after: PlayerState(1, [Species(0,1,1,[HardShellCard(0)]), Species(0,1,2,[LongNeckCard(1)])], 2, [HardShellCard(1), HardShellCard(2), HornCard(-1), HornCard(0), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3)])
+
+player_state before: PlayerState(2, [Species(0,1,1,[HerdingCard(-3)])], 2, [HerdingCard(-2), HerdingCard(-1), HornCard(1), HornCard(2), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0)])
+player_state after: PlayerState(2, [Species(0,1,1,[HerdingCard(-3)]), Species(0,1,2,[PackHuntingCard(-2)])], 2, [HerdingCard(-2), HerdingCard(-1), HornCard(1), HornCard(2), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(1)])], 0, [ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3)])
+
+Player: 4, Species: [Species(0,1,2,[FertileCard(0)]), Species(0,1,2,[HornCard(-2)])]
+Player: 1, Species: [Species(0,1,1,[HardShellCard(0)]), Species(0,1,2,[LongNeckCard(1)])]
+Player: 2, Species: [Species(0,1,1,[HerdingCard(-3)]), Species(0,1,2,[PackHuntingCard(-2)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(1)])]
+End of game 
+
+player: PlayerState(1, [], 2, [LongNeckCard(2), LongNeckCard(3), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), SymbiosisCard(-2)])
+player: PlayerState(2, [], 2, [PackHuntingCard(-1), PackHuntingCard(0), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1), SymbiosisCard(2)])
+player: PlayerState(3, [], 0, [HerdingCard(2), HerdingCard(3), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2), WarningCallCard(-1)])
+player: PlayerState(4, [], 1, [HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), ScavengerCard(-2), ScavengerCard(-1), ScavengerCard(0), ScavengerCard(1)])
+scores: [(1, 'Hi', 2), (2, 'Hi', 2), (3, 'Hi', 0), (4, 'Hi', 1)]
+
+ Start Game 
+
+Start Turn: 
+
+Player States: [PlayerState(1, [], 0, []), PlayerState(2, [], 0, []), PlayerState(3, [], 0, [])] 
+ WH: 0 
+
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+
+Player: 1, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])]
+Start Turn: 
+
+Player States: [PlayerState(2, [], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3)]), PlayerState(3, [], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1)]), PlayerState(1, [], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])] 
+ WH: 0 
+
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 2 
+
+Apply card plays
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(3)])], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), CarnivoreCard(6), CarnivoreCard(7), CarnivoreCard(8), ClimbingCard(-3)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(7)])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), CarnivoreCard(6), CarnivoreCard(7), CarnivoreCard(8), ClimbingCard(-3)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7), ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-1)])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7), ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1)])
+
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(7)])]
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-1)])]
+Feeding choice is FeedVegitarian(0)
+Feeding choice is FeedVegitarian(0)
+Start Turn: 
+
+Player States: [PlayerState(3, [Species(0,0,1,[])], 1, [CarnivoreCard(8), ClimbingCard(-3), CooperationCard(-3), CooperationCard(-2)]), PlayerState(1, [], 0, [ClimbingCard(0), ClimbingCard(1), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2)]), PlayerState(2, [Species(0,0,1,[])], 1, [CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 12 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 1, [CarnivoreCard(8), ClimbingCard(-3), CooperationCard(-3), CooperationCard(-2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 0)])], 1, [CarnivoreCard(8), ClimbingCard(-3), CooperationCard(-3), CooperationCard(-2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [ClimbingCard(0), ClimbingCard(1), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)])], 0, [ClimbingCard(0), ClimbingCard(1), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 1, [CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,2,[FertileCard(-2)])], 1, [CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 0)])]
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,3,[FertileCard(-2)])]
+Feeding choice is StoreFood(1, 1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+
+ Start Game 
+
+Start Turn: 
+
+Player States: [PlayerState(1, [], 0, []), PlayerState(2, [], 0, []), PlayerState(3, [], 0, [])] 
+ WH: 0 
+
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+
+Player: 1, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])]
+Start Turn: 
+
+Player States: [PlayerState(2, [], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3)]), PlayerState(3, [], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1)]), PlayerState(1, [], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])] 
+ WH: 0 
+
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 2 
+
+Apply card plays
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(3)])], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), CarnivoreCard(6), CarnivoreCard(7), CarnivoreCard(8), ClimbingCard(-3)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(7)])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), CarnivoreCard(6), CarnivoreCard(7), CarnivoreCard(8), ClimbingCard(-3)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7), ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-1)])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7), ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1)])
+
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(7)])]
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-1)])]
+Feeding choice is FeedVegitarian(0)
+Feeding choice is FeedVegitarian(0)
+Start Turn: 
+
+Player States: [PlayerState(3, [Species(0,0,1,[])], 1, [CarnivoreCard(8), ClimbingCard(-3), CooperationCard(-3), CooperationCard(-2)]), PlayerState(1, [], 0, [ClimbingCard(0), ClimbingCard(1), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2)]), PlayerState(2, [Species(0,0,1,[])], 1, [CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 12 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 1, [CarnivoreCard(8), ClimbingCard(-3), CooperationCard(-3), CooperationCard(-2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 0)])], 1, [CarnivoreCard(8), ClimbingCard(-3), CooperationCard(-3), CooperationCard(-2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [ClimbingCard(0), ClimbingCard(1), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)])], 0, [ClimbingCard(0), ClimbingCard(1), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 1, [CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,2,[FertileCard(-2)])], 1, [CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 0)])]
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,3,[FertileCard(-2)])]
+Feeding choice is StoreFood(1, 1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(0)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(0)
+No choice
+Feeding choice is FeedVegitarian(0)
+No choice
+No choice
+Start Turn: 
+
+Player States: [PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)])], 3, [FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0)]), PlayerState(2, [Species(0,0,1,[]), Species(0,1,3,[FertileCard(-2)])], 5, [FertileCard(-1), FertileCard(0)]), PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 1)])], 4, [FatTissueCard(-2, 0), FatTissueCard(-1, 0)])] 
+ WH: 1 
+
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 2), ExchangeForBodySize(4, 2), ReplaceCards(5, 2, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 2), ExchangeForBodySize(4, 2), ReplaceCards(5, 2, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 2), ExchangeForBodySize(4, 2), ReplaceCards(5, 2, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)])], 3, [FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0), FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)]), Species(0,1,2,[FertileCard(2)])], 3, [FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0), FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[]), Species(0,1,3,[FertileCard(-2)])], 5, [FertileCard(-1), FertileCard(0), ForagingCard(-1), ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,3,[FertileCard(-2)]), Species(0,1,2,[ForagingCard(2)])], 5, [FertileCard(-1), FertileCard(0), ForagingCard(-1), ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 1)])], 4, [FatTissueCard(-2, 0), FatTissueCard(-1, 0), HardShellCard(-3), HardShellCard(-2), HardShellCard(-1), HardShellCard(0), HardShellCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 1)]), Species(0,1,2,[HardShellCard(0)])], 4, [FatTissueCard(-2, 0), FatTissueCard(-1, 0), HardShellCard(-3), HardShellCard(-2), HardShellCard(-1), HardShellCard(0), HardShellCard(1)])
+
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)]), Species(0,1,3,[FertileCard(2)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,4,[FertileCard(-2)]), Species(0,1,2,[ForagingCard(2)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(1,1,2,[FatTissueCard(-3, 0)]), Species(0,1,2,[HardShellCard(0)])]
+Start Turn: 
+
+Player States: [PlayerState(2, [], 5, [ForagingCard(3), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1)]), PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 0)])], 5, [HardShellCard(1), HornCard(0), HornCard(1), HornCard(2), HornCard(3)]), PlayerState(1, [], 3, [FertileCard(3), ForagingCard(-3), ForagingCard(-2), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0)])] 
+ WH: 0 
+
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 7 
+
+Apply card plays
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 5, [ForagingCard(3), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,2,[HornCard(-2)])], 5, [ForagingCard(3), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0)])
+
+player_state before: PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 0)])], 5, [HardShellCard(1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3)])
+player_state after: PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 0)]), Species(0,1,2,[LongNeckCard(1)])], 5, [HardShellCard(1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 3, [FertileCard(3), ForagingCard(-3), ForagingCard(-2), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(-3)])], 3, [FertileCard(3), ForagingCard(-3), ForagingCard(-2), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1)])
+
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,2,[HornCard(-2)])]
+Player: 3, Species: [Species(0,1,1,[FatTissueCard(-3, 0)]), Species(1,1,2,[LongNeckCard(1)])]
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(-3)])]
+Feeding choice is FeedVegitarian(1)
+Feeding choice is StoreFood(0, 1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Start Turn: 
+
+Player States: [PlayerState(3, [Species(0,1,2,[LongNeckCard(1)])], 7, [LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), ScavengerCard(-3), ScavengerCard(-2)]), PlayerState(1, [Species(0,1,2,[HerdingCard(-3)])], 5, [HerdingCard(-2), HerdingCard(-1), HerdingCard(0), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), ScavengerCard(-1), ScavengerCard(0)]), PlayerState(2, [Species(0,1,2,[HornCard(-2)])], 7, [HornCard(-1), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), PackHuntingCard(2), PackHuntingCard(3)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,1,2,[LongNeckCard(1)])], 7, [LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3)])
+player_state after: PlayerState(3, [Species(0,1,2,[LongNeckCard(1)]), Species(0,1,2,[ScavengerCard(1)])], 7, [LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3)])
+
+player_state before: PlayerState(1, [Species(0,1,2,[HerdingCard(-3)])], 5, [HerdingCard(-2), HerdingCard(-1), HerdingCard(0), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), ScavengerCard(-1), ScavengerCard(0), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1)])
+player_state after: PlayerState(1, [Species(0,1,2,[HerdingCard(-3)]), Species(0,1,2,[PackHuntingCard(0)])], 5, [HerdingCard(-2), HerdingCard(-1), HerdingCard(0), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), ScavengerCard(-1), ScavengerCard(0), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1)])
+
+player_state before: PlayerState(2, [Species(0,1,2,[HornCard(-2)])], 7, [HornCard(-1), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), PackHuntingCard(2), PackHuntingCard(3), SymbiosisCard(2), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2)])
+player_state after: PlayerState(2, [Species(0,1,2,[HornCard(-2)]), Species(0,1,2,[PackHuntingCard(2)])], 7, [HornCard(-1), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), PackHuntingCard(2), PackHuntingCard(3), SymbiosisCard(2), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2)])
+
+Player: 3, Species: [Species(0,1,2,[LongNeckCard(1)]), Species(0,1,2,[ScavengerCard(1)])]
+Player: 1, Species: [Species(0,1,2,[HerdingCard(-3)]), Species(0,1,2,[PackHuntingCard(0)])]
+Player: 2, Species: [Species(0,1,2,[HornCard(-2)]), Species(0,1,2,[PackHuntingCard(2)])]
+End of game 
+
+player: PlayerState(1, [], 5, [PackHuntingCard(1), ScavengerCard(-1), ScavengerCard(0), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1), WarningCallCard(3)])
+player: PlayerState(2, [], 7, [PackHuntingCard(3), SymbiosisCard(2), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2)])
+player: PlayerState(3, [], 7, [ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), WarningCallCard(-1), WarningCallCard(0), WarningCallCard(1), WarningCallCard(2)])
+scores: [(1, 'Hi', 5), (2, 'Hi', 7), (3, 'Hi', 7)]
+
+ Start Game 
+
+Start Turn: 
+
+Player States: [PlayerState(1, [], 0, []), PlayerState(2, [], 0, []), PlayerState(3, [], 0, [])] 
+ WH: 0 
+
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+
+Player: 1, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])]
+Start Turn: 
+
+Player States: [PlayerState(2, [], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3)]), PlayerState(3, [], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1)]), PlayerState(1, [], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])] 
+ WH: 0 
+
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 2 
+
+Apply card plays
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(3)])], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), CarnivoreCard(6), CarnivoreCard(7), CarnivoreCard(8), ClimbingCard(-3)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(7)])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), CarnivoreCard(6), CarnivoreCard(7), CarnivoreCard(8), ClimbingCard(-3)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7), ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-1)])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7), ClimbingCard(-2), ClimbingCard(-1), ClimbingCard(0), ClimbingCard(1)])
+
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[CarnivoreCard(7)])]
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-1)])]
+Feeding choice is FeedVegitarian(0)
+Feeding choice is FeedVegitarian(0)
+Start Turn: 
+
+Player States: [PlayerState(3, [Species(0,0,1,[])], 1, [CarnivoreCard(8), ClimbingCard(-3), CooperationCard(-3), CooperationCard(-2)]), PlayerState(1, [], 0, [ClimbingCard(0), ClimbingCard(1), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2)]), PlayerState(2, [Species(0,0,1,[])], 1, [CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 12 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 1, [CarnivoreCard(8), ClimbingCard(-3), CooperationCard(-3), CooperationCard(-2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 0)])], 1, [CarnivoreCard(8), ClimbingCard(-3), CooperationCard(-3), CooperationCard(-2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [ClimbingCard(0), ClimbingCard(1), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)])], 0, [ClimbingCard(0), ClimbingCard(1), CooperationCard(-1), CooperationCard(0), CooperationCard(1), CooperationCard(2), FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 1, [CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,2,[FertileCard(-2)])], 1, [CarnivoreCard(4), CarnivoreCard(5), ClimbingCard(2), ClimbingCard(3), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 0)])]
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,3,[FertileCard(-2)])]
+Feeding choice is StoreFood(1, 1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(0)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(0)
+No choice
+Feeding choice is FeedVegitarian(0)
+No choice
+No choice
+Start Turn: 
+
+Player States: [PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)])], 3, [FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0)]), PlayerState(2, [Species(0,0,1,[]), Species(0,1,3,[FertileCard(-2)])], 5, [FertileCard(-1), FertileCard(0)]), PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 1)])], 4, [FatTissueCard(-2, 0), FatTissueCard(-1, 0)])] 
+ WH: 1 
+
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 2), ExchangeForBodySize(4, 2), ReplaceCards(5, 2, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 2), ExchangeForBodySize(4, 2), ReplaceCards(5, 2, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 2), ExchangeForBodySize(4, 2), ReplaceCards(5, 2, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)])], 3, [FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0), FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)]), Species(0,1,2,[FertileCard(2)])], 3, [FatTissueCard(0, 0), FatTissueCard(1, 0), FatTissueCard(2, 0), FatTissueCard(3, 0), FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[]), Species(0,1,3,[FertileCard(-2)])], 5, [FertileCard(-1), FertileCard(0), ForagingCard(-1), ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,3,[FertileCard(-2)]), Species(0,1,2,[ForagingCard(2)])], 5, [FertileCard(-1), FertileCard(0), ForagingCard(-1), ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 1)])], 4, [FatTissueCard(-2, 0), FatTissueCard(-1, 0), HardShellCard(-3), HardShellCard(-2), HardShellCard(-1), HardShellCard(0), HardShellCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 1)]), Species(0,1,2,[HardShellCard(0)])], 4, [FatTissueCard(-2, 0), FatTissueCard(-1, 0), HardShellCard(-3), HardShellCard(-2), HardShellCard(-1), HardShellCard(0), HardShellCard(1)])
+
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[CooperationCard(2)]), Species(0,1,3,[FertileCard(2)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,4,[FertileCard(-2)]), Species(0,1,2,[ForagingCard(2)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(1,1,2,[FatTissueCard(-3, 0)]), Species(0,1,2,[HardShellCard(0)])]
+Start Turn: 
+
+Player States: [PlayerState(2, [], 5, [ForagingCard(3), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1)]), PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 0)])], 5, [HardShellCard(1), HornCard(0), HornCard(1), HornCard(2), HornCard(3)]), PlayerState(1, [], 3, [FertileCard(3), ForagingCard(-3), ForagingCard(-2), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0)])] 
+ WH: 0 
+
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 7 
+
+Apply card plays
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 5, [ForagingCard(3), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,1,2,[HornCard(-2)])], 5, [ForagingCard(3), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0)])
+
+player_state before: PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 0)])], 5, [HardShellCard(1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3)])
+player_state after: PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 0)]), Species(0,1,2,[LongNeckCard(1)])], 5, [HardShellCard(1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3)])
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 3, [FertileCard(3), ForagingCard(-3), ForagingCard(-2), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(-3)])], 3, [FertileCard(3), ForagingCard(-3), ForagingCard(-2), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1)])
+
+Player: 2, Species: [Species(0,0,1,[]), Species(0,1,2,[HornCard(-2)])]
+Player: 3, Species: [Species(0,1,1,[FatTissueCard(-3, 0)]), Species(1,1,2,[LongNeckCard(1)])]
+Player: 1, Species: [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(-3)])]
+Feeding choice is FeedVegitarian(1)
+Feeding choice is StoreFood(0, 1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(1)
+Start Turn: 
+
+Player States: [PlayerState(3, [Species(0,1,2,[LongNeckCard(1)])], 7, [LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), ScavengerCard(-3), ScavengerCard(-2)]), PlayerState(1, [Species(0,1,2,[HerdingCard(-3)])], 5, [HerdingCard(-2), HerdingCard(-1), HerdingCard(0), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), ScavengerCard(-1), ScavengerCard(0)]), PlayerState(2, [Species(0,1,2,[HornCard(-2)])], 7, [HornCard(-1), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), PackHuntingCard(2), PackHuntingCard(3)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,1,2,[LongNeckCard(1)])], 7, [LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3)])
+player_state after: PlayerState(3, [Species(0,1,2,[LongNeckCard(1)]), Species(0,1,2,[ScavengerCard(1)])], 7, [LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3)])
+
+player_state before: PlayerState(1, [Species(0,1,2,[HerdingCard(-3)])], 5, [HerdingCard(-2), HerdingCard(-1), HerdingCard(0), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), ScavengerCard(-1), ScavengerCard(0), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1)])
+player_state after: PlayerState(1, [Species(0,1,2,[HerdingCard(-3)]), Species(0,1,2,[PackHuntingCard(0)])], 5, [HerdingCard(-2), HerdingCard(-1), HerdingCard(0), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), ScavengerCard(-1), ScavengerCard(0), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1)])
+
+player_state before: PlayerState(2, [Species(0,1,2,[HornCard(-2)])], 7, [HornCard(-1), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), PackHuntingCard(2), PackHuntingCard(3), SymbiosisCard(2), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2)])
+player_state after: PlayerState(2, [Species(0,1,2,[HornCard(-2)]), Species(0,1,2,[PackHuntingCard(2)])], 7, [HornCard(-1), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), PackHuntingCard(2), PackHuntingCard(3), SymbiosisCard(2), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2)])
+
+Player: 3, Species: [Species(0,1,2,[LongNeckCard(1)]), Species(0,1,2,[ScavengerCard(1)])]
+Player: 1, Species: [Species(0,1,2,[HerdingCard(-3)]), Species(0,1,2,[PackHuntingCard(0)])]
+Player: 2, Species: [Species(0,1,2,[HornCard(-2)]), Species(0,1,2,[PackHuntingCard(2)])]
+End of game 
+
+player: PlayerState(1, [], 5, [PackHuntingCard(1), ScavengerCard(-1), ScavengerCard(0), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1), WarningCallCard(3)])
+player: PlayerState(2, [], 7, [PackHuntingCard(3), SymbiosisCard(2), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2)])
+player: PlayerState(3, [], 7, [ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), WarningCallCard(-1), WarningCallCard(0), WarningCallCard(1), WarningCallCard(2)])
+scores: [(1, 'good guy', 5), (2, 'good guy', 7), (3, 'good guy', 7)]
+
+ Start Game 
+
+Start Turn: 
+
+Player States: [PlayerState(1, [], 0, []), PlayerState(2, [], 0, []), PlayerState(3, [], 0, [])] 
+ WH: 0 
+
+Kicked player 1 
+
+Kicked player 1 
+
+Kicked player 3 
+
+Kicked player 3 
+
+watering hole: 0 
+
+Apply card plays
+
+Player: 2, Species: [Species(0,0,1,[])]
+Start Turn: 
+
+Player States: [PlayerState(2, [], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3), BurrowingCard(2), BurrowingCard(3)])] 
+ WH: 0 
+
+Kicked player 2 
+
+Kicked player 2 
+
+watering hole: 0 
+
+Apply card plays
+
+
+ Start Game 
+
+Start Turn: 
+
+Player States: [PlayerState(1, [], 0, []), PlayerState(2, [], 0, []), PlayerState(3, [], 0, []), PlayerState(4, [], 0, [])] 
+ WH: 0 
+
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Kicked player 3 
+
+Kicked player 3 
+
+watering hole: 1 
+
+Apply card plays
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+
+Player: 1, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])]
+Player: 2, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])]
+Player: 4, Species: [Species(0,0,1,[])]
+Kicked player 1 
+
+Kicked player 1 
+
+Feeding choice is FeedVegitarian(0)
+Start Turn: 
+
+Player States: [PlayerState(4, [Species(0,0,1,[])], 1, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)]), PlayerState(2, [], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3)])] 
+ WH: 0 
+
+Kicked player 4 
+
+Kicked player 4 
+
+watering hole: 0 
+
+Apply card plays
+
+Player: 2, Species: [Species(0,0,1,[])]
+Start Turn: 
+
+Player States: [PlayerState(2, [], 0, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(2), CarnivoreCard(3), CarnivoreCard(4), CarnivoreCard(5), CarnivoreCard(6), CarnivoreCard(7)])] 
+ WH: 0 
+
+Kicked player 2 
+
+Kicked player 2 
+
+watering hole: 0 
+
+Apply card plays
+
+
+ Start Game 
+
+Start Turn: 
+
+Player States: [PlayerState(1, [], 0, []), PlayerState(2, [], 0, []), PlayerState(3, [], 0, []), PlayerState(4, [], 0, []), PlayerState(5, [], 0, [])] 
+ WH: 0 
+
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 2: 0 
+
+Card Plays: [ExchangeForPopulation(1, 3)]
+Kicked player 2 
+
+Kicked player 2 
+
+Food Card choices for player 4: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 5: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+watering hole: 2 
+
+Apply card plays
+
+player_state before: PlayerState(1, [Species(0,0,1,[])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+player_state after: PlayerState(1, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])], 0, [AmbushCard(-3), AmbushCard(-2), AmbushCard(-1), AmbushCard(0)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+
+player_state before: PlayerState(4, [Species(0,0,1,[])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])
+player_state after: PlayerState(4, [Species(0,0,1,[]), Species(0,0,2,[CarnivoreCard(-8)])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])
+
+Player: 1, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(-1)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])]
+Player: 4, Species: [Species(0,0,1,[]), Species(0,0,2,[CarnivoreCard(-8)])]
+Player: 5, Species: [Species(0,0,1,[])]
+Feeding choice is FeedVegitarian(1)
+Kicked player 3 
+
+Kicked player 3 
+
+Feeding choice is FeedVegitarian(0)
+Start Turn: 
+
+Player States: [PlayerState(4, [], 0, [CarnivoreCard(0), CarnivoreCard(1), CarnivoreCard(2), CarnivoreCard(3)]), PlayerState(5, [Species(0,0,1,[])], 1, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3)]), PlayerState(1, [Species(0,0,1,[AmbushCard(-1)])], 1, [CarnivoreCard(-2), CarnivoreCard(-1)])] 
+ WH: 0 
+
+Kicked player 4 
+
+Kicked player 4 
+
+Kicked player 1 
+
+Kicked player 1 
+
+watering hole: 0 
+
+Apply card plays
+
+Player: 5, Species: [Species(0,0,1,[])]
+Start Turn: 
+
+Player States: [PlayerState(5, [], 1, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(8), ClimbingCard(-3), ClimbingCard(-2), ClimbingCard(-1), CooperationCard(-3), CooperationCard(-2)])] 
+ WH: 0 
+
+Kicked player 5 
+
+Kicked player 5 
+
+watering hole: 0 
+
+Apply card plays
+
+
+ Start Game 
+
+Start Turn: 
+
+Player States: [PlayerState(1, [], 0, []), PlayerState(2, [], 0, []), PlayerState(3, [], 0, []), PlayerState(4, [], 0, []), PlayerState(5, [], 0, [])] 
+ WH: 0 
+
+Food Card choices for player 1: 0 
+
+Card Plays: [ExchangeForPopulation(1, 3)]
+Kicked player 1 
+
+Kicked player 1 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 4: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+Food Card choices for player 5: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1)]
+watering hole: 2 
+
+Apply card plays
+
+player_state before: PlayerState(2, [Species(0,0,1,[])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+player_state after: PlayerState(2, [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])], 0, [AmbushCard(1), AmbushCard(2), AmbushCard(3), BurrowingCard(-3)])
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])], 0, [BurrowingCard(-2), BurrowingCard(-1), BurrowingCard(0), BurrowingCard(1)])
+
+player_state before: PlayerState(4, [Species(0,0,1,[])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])
+player_state after: PlayerState(4, [Species(0,0,1,[]), Species(0,0,2,[CarnivoreCard(-8)])], 0, [BurrowingCard(2), BurrowingCard(3), CarnivoreCard(-8), CarnivoreCard(-7)])
+
+Player: 2, Species: [Species(0,0,1,[]), Species(0,0,2,[AmbushCard(3)])]
+Player: 3, Species: [Species(0,0,1,[]), Species(0,0,2,[BurrowingCard(0)])]
+Player: 4, Species: [Species(0,0,1,[]), Species(0,0,2,[CarnivoreCard(-8)])]
+Player: 5, Species: [Species(0,0,1,[])]
+Kicked player 2 
+
+Kicked player 2 
+
+Feeding choice is FeedVegitarian(0)
+Feeding choice is FeedVegitarian(0)
+Start Turn: 
+
+Player States: [PlayerState(4, [Species(0,0,1,[])], 1, [CarnivoreCard(2), CarnivoreCard(3)]), PlayerState(5, [Species(0,0,1,[])], 1, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3)]), PlayerState(3, [], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1)])] 
+ WH: 0 
+
+Kicked player 4 
+
+Kicked player 4 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(5, [Species(0,0,1,[])], 1, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(8), ClimbingCard(-3), ClimbingCard(-2), ClimbingCard(-1)])
+player_state after: PlayerState(5, [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-3)])], 1, [CarnivoreCard(-6), CarnivoreCard(-5), CarnivoreCard(-4), CarnivoreCard(-3), CarnivoreCard(8), ClimbingCard(-3), ClimbingCard(-2), ClimbingCard(-1)])
+
+Player: 5, Species: [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(-3)])]
+Player: 3, Species: [Species(0,0,1,[])]
+Start Turn: 
+
+Player States: [PlayerState(3, [], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), ClimbingCard(0), ClimbingCard(1), ClimbingCard(2), ClimbingCard(3), CooperationCard(1), CooperationCard(2)]), PlayerState(5, [], 1, [ClimbingCard(-2), ClimbingCard(-1), CooperationCard(-3), CooperationCard(-2), CooperationCard(-1), CooperationCard(0)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+Kicked player 5 
+
+Kicked player 5 
+
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), ClimbingCard(0), ClimbingCard(1), ClimbingCard(2), ClimbingCard(3), CooperationCard(1), CooperationCard(2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(1)])], 0, [CarnivoreCard(-2), CarnivoreCard(-1), CarnivoreCard(0), CarnivoreCard(1), ClimbingCard(0), ClimbingCard(1), ClimbingCard(2), ClimbingCard(3), CooperationCard(1), CooperationCard(2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[ClimbingCard(1)])]
+Start Turn: 
+
+Player States: [PlayerState(3, [], 0, [ClimbingCard(2), ClimbingCard(3), CooperationCard(1), CooperationCard(2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 2 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 0, [ClimbingCard(2), ClimbingCard(3), CooperationCard(1), CooperationCard(2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0), FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 0)])], 0, [ClimbingCard(2), ClimbingCard(3), CooperationCard(1), CooperationCard(2), CooperationCard(3), FatTissueCard(-3, 0), FatTissueCard(-2, 0), FatTissueCard(-1, 0), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0), FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[FatTissueCard(-3, 0)])]
+Feeding choice is StoreFood(1, 1)
+Feeding choice is FeedVegitarian(1)
+Start Turn: 
+
+Player States: [PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 1)])], 1, [FatTissueCard(-2, 0), FatTissueCard(-1, 0), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0), FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2), ForagingCard(-1)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 1)])], 1, [FatTissueCard(-2, 0), FatTissueCard(-1, 0), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0), FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3)])
+player_state after: PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 1)]), Species(0,1,2,[FertileCard(0)])], 1, [FatTissueCard(-2, 0), FatTissueCard(-1, 0), FertileCard(-3), FertileCard(-2), FertileCard(-1), FertileCard(0), FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3)])
+
+Player: 3, Species: [Species(1,1,1,[FatTissueCard(-3, 0)]), Species(0,1,3,[FertileCard(0)])]
+Start Turn: 
+
+Player States: [PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 0)])], 2, [FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 1 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 0)])], 2, [FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2)])
+player_state after: PlayerState(3, [Species(0,1,1,[FatTissueCard(-3, 0)]), Species(0,1,2,[ForagingCard(-1)])], 2, [FertileCard(1), FertileCard(2), FertileCard(3), ForagingCard(-3), ForagingCard(-2), ForagingCard(-1), ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2)])
+
+Player: 3, Species: [Species(0,1,1,[FatTissueCard(-3, 0)]), Species(0,1,2,[ForagingCard(-1)])]
+Feeding choice is StoreFood(0, 1)
+Start Turn: 
+
+Player States: [PlayerState(3, [], 2, [ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 2, [ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[HardShellCard(-2)])], 2, [ForagingCard(0), ForagingCard(1), ForagingCard(2), ForagingCard(3), HardShellCard(-3), HardShellCard(-2), HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[HardShellCard(-2)])]
+Start Turn: 
+
+Player States: [PlayerState(3, [], 2, [HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), HornCard(0)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 2, [HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(-3)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(-3)])], 2, [HardShellCard(-1), HardShellCard(0), HardShellCard(1), HardShellCard(2), HardShellCard(3), HerdingCard(-3), HerdingCard(-2), HerdingCard(-1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(-3)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(-3)])]
+Start Turn: 
+
+Player States: [PlayerState(3, [], 2, [HerdingCard(-2), HerdingCard(-1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), LongNeckCard(1)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 2, [HerdingCard(-2), HerdingCard(-1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(3)])], 2, [HerdingCard(-2), HerdingCard(-1), HerdingCard(0), HerdingCard(1), HerdingCard(2), HerdingCard(3), HornCard(-3), HornCard(-2), HornCard(-1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[HerdingCard(3)])]
+Start Turn: 
+
+Player States: [PlayerState(3, [], 2, [HornCard(-3), HornCard(-2), HornCard(-1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), PackHuntingCard(2)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 0 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 2, [HornCard(-3), HornCard(-2), HornCard(-1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(-1)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[HornCard(2)])], 2, [HornCard(-3), HornCard(-2), HornCard(-1), HornCard(0), HornCard(1), HornCard(2), HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(-1)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(0,1,2,[HornCard(2)])]
+Start Turn: 
+
+Player States: [PlayerState(3, [], 2, [HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(-1), ScavengerCard(0), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 1), ExchangeForBodySize(4, 1), ReplaceCards(5, 1, 0)]
+watering hole: 3 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[])], 2, [HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(-1), ScavengerCard(0), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[LongNeckCard(1)])], 2, [HornCard(3), LongNeckCard(-3), LongNeckCard(-2), LongNeckCard(-1), LongNeckCard(0), LongNeckCard(1), LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(-1), ScavengerCard(0), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(1,1,2,[LongNeckCard(1)])]
+Feeding choice is FeedVegitarian(1)
+Feeding choice is FeedVegitarian(0)
+Start Turn: 
+
+Player States: [PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[LongNeckCard(1)])], 5, [LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(-1), ScavengerCard(0), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0)])] 
+ WH: 0 
+
+Food Card choices for player 3: 0 
+
+Card Plays: [ExchangeForSpecies(1, [2]), ExchangeForPopulation(3, 2), ExchangeForBodySize(4, 2), ReplaceCards(5, 2, 0)]
+watering hole: 2 
+
+Apply card plays
+
+player_state before: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[LongNeckCard(1)])], 5, [LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(-1), ScavengerCard(0), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1), SymbiosisCard(2), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2)])
+player_state after: PlayerState(3, [Species(0,0,1,[]), Species(0,1,2,[LongNeckCard(1)]), Species(0,1,2,[PackHuntingCard(0)])], 5, [LongNeckCard(2), LongNeckCard(3), PackHuntingCard(-3), PackHuntingCard(-2), PackHuntingCard(-1), PackHuntingCard(0), PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(-1), ScavengerCard(0), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1), SymbiosisCard(2), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2)])
+
+Player: 3, Species: [Species(0,0,1,[]), Species(1,1,2,[LongNeckCard(1)]), Species(0,1,2,[PackHuntingCard(0)])]
+Feeding choice is FeedVegitarian(1)
+End of game 
+
+player: PlayerState(3, [Species(0,1,2,[LongNeckCard(1)])], 7, [PackHuntingCard(1), PackHuntingCard(2), PackHuntingCard(3), ScavengerCard(-3), ScavengerCard(-2), ScavengerCard(-1), ScavengerCard(0), ScavengerCard(1), ScavengerCard(2), ScavengerCard(3), SymbiosisCard(-3), SymbiosisCard(-2), SymbiosisCard(-1), SymbiosisCard(0), SymbiosisCard(1), SymbiosisCard(2), SymbiosisCard(3), WarningCallCard(-3), WarningCallCard(-2), WarningCallCard(-1), WarningCallCard(0), WarningCallCard(1), WarningCallCard(2)])
+scores: [(3, 'good guy', 10)]
